@@ -1,0 +1,9 @@
+/* ===== 「確認しました」のスタンプ（見た目だけ） ===== */
+@media screen{
+.ack .who{display:flex;flex-wrap:wrap;gap:12px 10px;align-items:flex-start;font-size:12.5px;line-height:1.4}
+.ack .who span.wc-stamp{display:inline-flex;flex-direction:column;align-items:center;width:68px;padding:0;background:none;color:var(--ink);border-radius:0}
+.ack .who .wc-stamp .disc{display:block;width:60px;height:60px;border-radius:50%;overflow:hidden;background:var(--p);box-shadow:inset 0 0 0 3px var(--c);outline:2px dashed var(--c);outline-offset:2px}
+.wc-stamp .disc svg{display:block;width:100%;height:100%}
+.wc-stamp b{margin-top:6px;max-width:68px;font-size:12px;font-weight:700;line-height:1.25;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.wc-stamp em{font-style:normal;font-size:10.5px;color:var(--soft)}
+}
