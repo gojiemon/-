@@ -1,0 +1,14 @@
+/* ===== 「今の3項目」：ひと目で「何をやるか」が分かる見せ方（見た目だけ。文章は変えない） ===== */
+@media screen{
+#ima .goal{gap:10px;align-items:center}
+#ima .goal svg{flex:0 0 108px;width:108px;height:auto}
+#ima .goal>div:last-child{padding:14px 16px 13px}
+#ima .goal>div:last-child::before{top:50%;margin-top:-10px}
+#ima .num{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:#ee9a62;color:#fff;font-family:var(--round);font-weight:700;font-size:15px;margin-bottom:5px}
+#ima .goal h3{font-size:20px;line-height:1.45;font-weight:700;color:var(--ink);margin:0 0 6px}
+#ima dl{display:flex;flex-direction:column;margin-top:14px}
+#ima dt:nth-of-type(2){order:1;align-self:flex-start;background:var(--sage-d);color:#fff;font-size:13px;letter-spacing:.12em;padding:2px 14px;border-radius:99px;margin:0 0 6px}
+#ima dt:nth-of-type(2)+dd{order:2;margin:0;padding:11px 15px;font-size:16.5px;font-weight:700;line-height:1.7;color:var(--ink);background:rgba(169,203,152,.28);border-radius:18px 22px 17px 24px/22px 17px 24px 18px;box-shadow:inset 0 0 0 2px rgba(110,160,95,.35)}
+#ima dt:nth-of-type(1){order:3;margin:14px 0 2px;font-size:12px;color:var(--soft)}
+#ima dt:nth-of-type(1)+dd{order:4;margin:0;font-size:14px;line-height:1.7;color:var(--soft);font-weight:500}
+}
